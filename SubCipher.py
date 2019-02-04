@@ -4,10 +4,12 @@ import sys
 
 class SubCipher:
 
-	def __init__(self):
-		self.key = ''
-		self.encryption = ''
-		self.decryption = ''
+
+	def __init__(self, key="", encryption="", decryption=""):
+		self.key = key
+		self.encryption = encryption
+		self.decryption = decryption
+
 
 # encryption key which could be anything
 #KEY = b'h6C":w5X;n8DLh?D'
