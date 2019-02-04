@@ -23,4 +23,5 @@ while True:
 	if event is None or event == 'Exit':
 		break
 	print(event, values)
-	window.FindElement(key).Update()
+	if event == 'Encrypt':
+		window.FindElement('_encrypt_').Update(value=None)
