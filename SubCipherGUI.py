@@ -13,7 +13,7 @@ layout = [  [sg.Text('Enter Encryption Key')],
 			[sg.Exit()]  ]
 
 window = sg.Window('SubCipher').Layout(layout)
-
+305397
 # Initiallize class
 cipher = cip()
 
